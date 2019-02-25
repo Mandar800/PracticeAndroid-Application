@@ -15,14 +15,36 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:fontFamily="sans-serif-black"
         android:padding="10dp"
         android:text="Welcome To MyAPP"
         android:textAlignment="center"
         android:textColor="@color/light"
-        android:fontFamily="sans-serif-black"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.416" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="295dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:padding="14dp"
+        android:text="Created With Passion !"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/light"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.975" />
 </android.support.constraint.ConstraintLayout>
