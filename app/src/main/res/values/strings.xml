@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="please_select_a_website">Please Select a Website!</string>
+    <string-array name="Ws">
+        <item>Nothing is selected</item>
+        <item>Google</item>
+        <item>YouTube</item>
+        <item>Facebook</item>
+        <item>Shaalastic</item>
+        <item>GitHub</item>
+    </string-array>
+    <string name="y">PLease Select Something</string>
+</resources>
