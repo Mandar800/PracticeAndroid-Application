@@ -1,5 +1,8 @@
 package com.example.test;
 
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -30,6 +33,23 @@ public class MainHome extends AppCompatActivity implements View.OnClickListener 
             case R.id.cardView5: i=new Intent(this,recy.class);startActivity(i); break;
             case R.id.cardView4: i=new Intent(this,frag.class);startActivity(i); break;
             case R.id.cardView3:
+                final AlertDialog.Builder b1=new AlertDialog.Builder(MainHome.this);
+                b1.setMessage("Are You Sure?");
+                b1.setCancelable(true);
+                b1.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.cancel();
+                    }
+                });
+                b1.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        finish();
+                    }
+                });
+                AlertDialog a1=b1.create();
+                a1.show();
 
         }
 

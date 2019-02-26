@@ -74,7 +74,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="Spinner Implementation           +                       WebView"
+                android:text="Spinner Implementation + WebView"
                 android:textAlignment="center"
                 android:textColor="@color/light"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -165,8 +165,8 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="271dp"
-        android:layout_height="44dp"
+        android:layout_width="320dp"
+        android:layout_height="66dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -175,6 +175,7 @@
         android:text="Clickable CardView !"
         android:textAlignment="center"
         android:textColor="@color/light"
+        android:textSize="25dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/cardView5"
         app:layout_constraintEnd_toEndOf="parent"
